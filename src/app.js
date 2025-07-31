@@ -25,7 +25,7 @@ const App = () => {
 
   return (
     <div>
-      <h1 class="pokemon-title">宝可梦</h1>
+      <h1 className="pokemon-title">宝可梦</h1>
       <Input onChangeHandler={onChangeHandler} />
       <Lists pokemonsLists={filteredPokemons} />
     </div>
