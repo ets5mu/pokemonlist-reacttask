@@ -5,6 +5,20 @@
   padding: 20px;
 }
 
+h1.pokemon-title {
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(10px); /* 毛玻璃模糊效果 */
+  border-radius: 8px;
+  padding: 12px 20px;
+  color: var(--light);
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  display: inline-block; /* 让背景只包裹文字内容 */
+}
+
+
 .pokemon-card {
   position: relative;
   background: linear-gradient(145deg, #1e293b, #0f172a);
